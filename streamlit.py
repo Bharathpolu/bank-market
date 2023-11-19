@@ -1,7 +1,7 @@
 import streamlit as st
 
-Streamlit
-interfacest.title('Bank Client Term Deposit Subscription Predict')
+#Streamlitinterface
+st.title('Bank Client Term Deposit Subscription Predict')
 
 # Input fields
 age = st.number_input('Age', min_value=18, max_value=95, step=1)
@@ -32,5 +32,3 @@ if st.button('Calculate Deposit Subscription Predict'):
         st.success('The customer is likely to subscribe to a term deposit.')
     else:
         st.error('The customer is not likely to subscribe to a term deposit.')
-
-# To run the app, use the command: streamlit run your_script_name.py
