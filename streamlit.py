@@ -17,8 +17,6 @@ day = st.number_input('day', min_value=1, max_value=31)
 month = st.number_input('month', min_value=1, max_value=12)
 duration = st.number_input('duration', min_value=0, max_value=4918)
 campaign = st.number_input('campaign', min_value=1, max_value=63)
-pdays = st.number_input('pdays', min_value=-1, max_value=63)
-previous = st.number_input('previous', min_value=0, max_value=275)
 poutcome = st.number_input('poutcome', min_value=0, max_value=3)
 
 features = [age, job, marital, education, default, balance, housing, loan, contact, day, month, duration, campaign,
