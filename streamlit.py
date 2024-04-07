@@ -19,8 +19,7 @@ duration = st.number_input('duration', min_value=0, max_value=4918)
 campaign = st.number_input('campaign', min_value=1, max_value=63)
 poutcome = st.number_input('poutcome', min_value=0, max_value=3)
 
-features = [age, job, marital, education, default, balance, housing, loan, contact, day, month, duration, campaign,
-            pdays, previous, poutcome]
+features = [age, job, marital, education, default, balance, housing, loan, contact, day, month, duration, campaign, poutcome]
 
 if st.button('Calculate Deposit Subscription Predict'):
     # adicionar o modelo aqui
